@@ -22,3 +22,10 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
 # Comprarission of MongoDB with MySql ?
    ![cp](https://user-images.githubusercontent.com/70527737/211202330-2c216f05-634e-4866-89e5-e4e23a0220e5.png)
    
+# --------------------------------------------------------------------------------------------------------------------------------------------------- #
+
+
+# Basic Codes...😁
+
+# we can write code on "MongoDB Compass" GUI as well as on "Mongodb shell" also known as Mongosh.
+
