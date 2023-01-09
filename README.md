@@ -128,11 +128,8 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
              db.Student_info.update( {"name" : "Teuton Roy"}, { $rename: { name : "Name" } } )
      
      
-     
-     
-     
-     
-     
+   # Delete Row
+      db.Student_info.deleteOne({Name : "Teuton Roy"})
      
      
      
