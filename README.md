@@ -116,8 +116,16 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
          
          Syntax : {upsert: <boolean>}
          
-   
+         # Update Operator
+            [ https://www.mongodb.com/docs/manual/reference/operator/update/ ] for reference use this link.
+       
+       
+       # Mongodb Increment Operator
+            db.Student_info.updateOne({"name" : "Anubhav Kharwar"}, {$inc: {"Registration_id" : 2}}) 
+            //we can't apply $inc in non-numeric type value//
      
+       # Mongodb Rename Operator
+             db.Student_info.update( {"name" : "Teuton Roy"}, { $rename: { name : "Name" } } )
      
      
      
