@@ -130,11 +130,7 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
      
    # Delete Row
       db.Student_info.deleteOne({Name : "Teuton Roy"})
-     
-     
-     
-     
-     
+    
      
      
      
