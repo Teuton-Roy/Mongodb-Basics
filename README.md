@@ -10,14 +10,14 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
 #--------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 # A. What is Mongodb 🤔? 
-   # 1. MongoDB is a document database designed for ease of development and scaling.
-   # 2. It is intuitive and easy to use NoSQL database.
-   # 3. It's community edition itself is very powerful
+    1. MongoDB is a document database designed for ease of development and scaling.
+    2. It is intuitive and easy to use NoSQL database.
+    3. It's community edition itself is very powerful
    
    
 # B. Difference between Mongo and MongoD 🤷‍♂️?
-   # 1. "Mongo" is command-line shell that connects to a specific instance of MongoD. // Simply we can say, Mongo where we issue the command or like a program.
-   # 1. "MongoD" is the "Mongo Daemon" it's basically the host process for the database. // Simply we can say, MongoD is a type of compiler not exactly a complier.
+    * "Mongo" is command-line shell that connects to a specific instance of MongoD. // Simply we can say, Mongo where we issue the command or like a program.
+    * "MongoD" is the "Mongo Daemon" it's basically the host process for the database. // Simply we can say, MongoD is a type of compiler not exactly a complier.
    
 # C. Comprarission of MongoDB with MySql ?
    ![cp](https://user-images.githubusercontent.com/70527737/211202330-2c216f05-634e-4866-89e5-e4e23a0220e5.png)
@@ -38,9 +38,69 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
 
 # 1. Database Commands
    # View All Databases : 
-   # show dbs
+     show dbs
+   
+   # Create a new or switch databases :
+      use dbname {your_databasename}
+   
+   # View current Database :
+      db
+      
+   # Delete Database :
+      db.dropDatabase()
 
-
+# 2. Collection Commands
+   # Show Collections
+      show collections
+   
+   # Create a collection named ('As-your-wish')
+      db.createCollection["your-collection-name"]
+   
+   # Drop your named collection
+      db.(your-collection-name).drop()
+    
+# 3. Row(Document) Commands
+   
+   # Show all Rows in a Collection
+      db.(your-collection-name).find()
+   
+   # Find the first row matching the object
+      db.(your-collection-name).find({"name" : "Teuton Roy"})
+   
+   # Insert One Row
+     db.Student_info.insert({
+    "name": "Teuton Roy",
+    "Registration_no.": '2021PGCACA070',
+    "DOB" : "2000-03-18"
+ })
+ 
+   # Insert many Rows
+       db.Student_info.insert([{
+    "name": "Teuton Roy",
+    "Registration_no.": '2021PGCACA070',
+    "DOB" : "2000-03-18"
+    },
+    {
+     "name": "Debasish Biswas",
+    "Registration_no.": '2021PGCACA057',
+    "DOB" : "1999-08-29"
+    },
+    {
+     "name": "Pragna Biswas",
+    "Registration_no.": '2021PGCACA052',
+    "DOB" : "2001-03-21"
+    }
+ }])
+ 
+   # Search in a MongoDb Database
+      db.Student_info.find({"name" : "Teuton Roy"})
+   
+   # Limit the number of rows in output
+      db.Student_info.find().limit(2)
+     
+   # Count the number of rows in the output
+      db.Student_info.find().count()
+      
 
 
 
