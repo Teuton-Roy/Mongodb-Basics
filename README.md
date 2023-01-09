@@ -67,6 +67,7 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
    # Find the first row matching the object
       db.(your-collection-name).find({"name" : "Teuton Roy"})
    
+  # Suppose [Student_info] is my Collection name..
    # Insert One Row
      db.Student_info.insert({
     "name": "Teuton Roy",
