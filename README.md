@@ -88,7 +88,7 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
     },
     {
      "name": "Pragna Biswas",
-    "Registration_no.": '2021PGCACA052',
+    "Registration_no.": '2021PGCACA050',
     "DOB" : "2001-03-21"
     }
  }])
