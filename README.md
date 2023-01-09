@@ -106,4 +106,39 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
       db.Student_info.findOne()
 
 
-
+   # Update a row 
+      Using updateOne, updateMany, or bulkWrite(https://www.mongodb.com/docs/manual/core/bulk-write-operations/).
+     
+      db.Student_info.updateOne({"name" : "Pragna Biswas"},
+                                 {$set: {"Registration_no" : "2021PGCACA050"}}, {upsert: true})
+                                 
+         upsert : In MongoDB, upsert is a method that is used to insert and update the value in any operation. In other words, the MongoDB upsert method is a                             combination of insert and update (insert + update = upsert). By default, the upsert method's value is always false. If the document matches the                         specified query and the method's value is set to true, the update operation will update the matching documents. If the document does not match the                     specified query and the method's value is set to true, this method inserts a new document in the collection. This new document contains the fields                     that indicate to the operation.
+         
+         Syntax : {upsert: <boolean>}
+         
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
