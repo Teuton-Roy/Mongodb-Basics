@@ -102,9 +102,8 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
    # Count the number of rows in the output
       db.Student_info.find().count()
       
-
-
-
+   # Find only one row
+      db.Student_info.findOne()
 
 
 
