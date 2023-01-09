@@ -29,3 +29,21 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
 
 # we can write code on "MongoDB Compass" GUI as well as on "Mongodb shell" also known as Mongosh.
 
+## All MongoDB Commands 🖊️##
+
+# In this repo, we will see a comprehensive list of all the MongoDB commands you will ever need as a MongoDB beginner. This list covers almost all the most used commands in MongoDB.
+# I will assume that we are working inside a collection named 'Your_Collection_name' on a MongoDB database of your choice.
+
+
+
+# 1. Database Commands
+   # View All Databases : 
+   # show dbs
+
+
+
+
+
+
+
+
