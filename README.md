@@ -133,15 +133,13 @@ A repo where I'm going to create a README.MD file which is basically about Mongo
     
      
      
-   # Less than/Greater than/ Less than or Eq/Greater than or Eq
+   # Less than(lt)/Greater than(gt)/ Less than or Eq(lte)/Greater than or Eq(gte)
       db.comments.find({id: {$lt: 90}})
       db.comments.find({id: {$lte: 90}})
       db.comments.find({id: {$gt: 90}})
       db.comments.find({id: {$gte: 90}})
       
-      
-     
-     
+   
      
      
      
